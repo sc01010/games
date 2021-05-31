@@ -1,0 +1,184 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.title_and_search {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px black;
+    background-color: black;
+}
+
+.aside_and_main {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px black;
+    background-color: white;
+}
+
+.main_name {
+    width: 35%;
+    padding-left: 5px;
+    font-size: 30px;
+    color: white;
+    letter-spacing: -5px;
+    text-shadow: 3px 3px 3px lightblue;
+}
+
+#search_bar {
+    border: solid black 2px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 20px;
+}
+
+main {
+    padding-left: 20px;
+    border-left: solid 1px black;
+}
+
+aside {
+    padding-left: 15px;
+    width: 400px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+
+/* Setting up the table header */
+table th {
+    text-align: left;
+    background-color: white;
+    border-bottom: solid black 1px;
+    padding: 10px;
+    font-size: 18px;
+    position: sticky;
+    top: 0px;
+}
+
+/* Setting up each cell in the table */
+table td {
+    text-align: left;
+    padding: 12px;
+}
+
+/* No padding for the last column */
+table td {
+    padding-right: 0px;
+}
+
+table td:last-child {
+    padding-right: 0px;
+    text-align: center;
+}
+
+table td:nth-child(3) {
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.label_and_input {
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+label{
+    width: 40%;
+    display: inline-block;
+    /* float: left;  */
+    /* clear: left;
+    width: 250px;  */
+    text-align: right;
+}
+
+input {
+  display: inline-block;
+  /* float: left; */
+}
+
+.align_right {
+    text-align: right;
+}
+
+.search_label {
+    width: 60px;
+    text-align: left;
+    padding-top: 40px;
+    color:white;
+}
+
+.feedback {
+    border-left: rgb(167, 2, 2) solid 2px;
+    padding-left: 5px;
+    margin-left: 43%;
+    margin-bottom: 3px;
+    color:  rgb(167, 2, 2);
+}
+
+.feedback_insert {
+    font-size: 22px;
+    border-left: rgb(167, 2, 2) solid 2px;
+    padding-left: 5px;
+    margin-left: 5px;
+    color:  rgb(167, 2, 2);
+}
+
+.successful_insert {
+    font-size: 22px;
+    color: green;
+    border-left: green solid 2px;
+    padding-left: 5px;
+}
+
+header {
+    width: 65%;
+    padding-top: 20px;
+}
+
+footer {
+    color: white;
+    padding-left: 10px;
+}
+
+.filter_label_and_input label{
+    width: 100%;
+    text-align: left;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#filter_form {
+    margin-bottom: 60px;
+}
+
+.search_info {
+    font-size: 16px;
+    /* color: grey; */
+    opacity: 0.65;
+}
+
+.black_text {
+    color: black;
+}
+
+.not_found_body {
+    background-color: white;
+    padding-top: 75px;
+    padding-bottom: 120px;
+    padding-left: 20px;
+}
+
+.error_message_not_found {
+    padding-bottom: 50px;
+}
